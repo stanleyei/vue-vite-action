@@ -10,7 +10,7 @@ export default {
 <template>
   <div class="w-1/2 h-[50dvh]">
     <nav class="flex">
-      <button type="button" class="nav-btn">號碼</button>
+      <button type="button" class="nav-btn active">號碼</button>
       <button type="button" class="nav-btn">中文名</button>
       <button type="button" class="nav-btn">英文名</button>
     </nav>
