@@ -1,9 +1,14 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script>
+export default {
+};
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="flex flex-col gap-y-2">
+    <h1 class="text-7xl font-bold">Hello Vite + Vue!</h1>
+  </div>
 </template>
+
+<style scoped>
+
+</style>
