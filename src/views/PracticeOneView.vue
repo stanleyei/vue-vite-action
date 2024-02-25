@@ -1,21 +1,25 @@
 <script>
+import vueLogo from '@/assets/images/logo.svg';
+
 export default {
   data() {
     return {
+      vueLogo,
     };
   },
 };
 </script>
 
 <template>
-  <div class="w-1/2 h-[50dvh]">
+  <div class="w-[700px] h-[50dvh]">
     <nav class="flex">
-      <button type="button" class="nav-btn active">號碼</button>
-      <button type="button" class="nav-btn">中文名</button>
-      <button type="button" class="nav-btn">英文名</button>
+      <button type="button" class="nav-btn active">Vue</button>
+      <button type="button" class="nav-btn">編號</button>
+      <button type="button" class="nav-btn">姓名</button>
+      <button type="button" class="nav-btn">喜歡的食物</button>
     </nav>
     <div class="flex items-center justify-center h-full border-2 border-white rounded-b rounded-tr">
-      <h1 class="text-8xl font-bold">20</h1>
+      <img :src="vueLogo" alt="Vue Logo" class="w-1/2 h-1/2">
     </div>
   </div>
 </template>
